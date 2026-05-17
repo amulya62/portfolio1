@@ -1,16 +1,46 @@
-# React + Vite
+# Amulya Shree T S | Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern, and responsive personal portfolio built with React and Vite. It showcases my professional experience, full-stack projects, skills, and certifications.
 
-Currently, two official plugins are available:
+## 🌟 Live Demo
+[View Portfolio Here](https://amulya62.github.io/portfolio1/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- **Dynamic Hero Section**: Includes an interactive profile photo upload feature.
+- **Glassmorphism Design**: Modern aesthetic using dark mode and frosted glass panels.
+- **Responsive Layout**: Works seamlessly across mobile, tablet, and desktop devices.
+- **Projects & Experience**: Highlights my internships and full-stack development work.
 
-## React Compiler
+## 🛠️ Built With
+- [React](https://react.dev/) - Frontend Library
+- [Vite](https://vitejs.dev/) - Build Tool
+- HTML5 & CSS3 - Styling and animations
+- GitHub Pages - Deployment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Running Locally
 
-## Expanding the ESLint configuration
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/amulya62/portfolio1.git
+   cd portfolio1
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 📬 Contact
+- **Email**: amulyas2242004@gmail.com
+- **LinkedIn**: [linkedin.com/in/amulya-s-1a82b830b](https://linkedin.com/in/amulya-s-1a82b830b)
+- **GitHub**: [github.com/amulya62](https://github.com/amulya62)
