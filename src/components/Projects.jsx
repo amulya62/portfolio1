@@ -3,9 +3,9 @@ import './Projects.css';
 
 const projects = [
   {
-    title: "Loan Application",
-    description: "A comprehensive loan application system that streamlines the process of applying for and managing loans. Features a user-friendly interface and secure data handling.",
-    tech: ["React", "Node.js", "Vercel", "Form Validation"],
+    title: "Loan & Insurance Analyzer",
+    description: "An AI-powered tool that analyzes long loan and insurance documents. It helps users identify hidden traps and extracts key information from 20+ page documents instantly.",
+    tech: ["React", "AI Analysis", "Document Processing", "Vercel"],
     github: "https://github.com/amulya62",
     external: "https://loan-application-psi-brown.vercel.app/",
     featured: true
