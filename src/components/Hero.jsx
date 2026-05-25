@@ -1,14 +1,19 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './Hero.css';
+import profileImg from '../assets/hero.png';
 
 const Hero = () => {
-  const [profileImage, setProfileImage] = useState('/photo.jpg');
+  const [profileImage, setProfileImage] = useState(profileImg);
   const fileInputRef = useRef(null);
 
   useEffect(() => {
-    const savedPhoto = localStorage.getItem('profilePhoto');
-    if (savedPhoto) {
-      setProfileImage(savedPhoto);
+    try {
+      const savedPhoto = localStorage.getItem('profilePhoto');
+      if (savedPhoto) {
+        setProfileImage(savedPhoto);
+      }
+    } catch (e) {
+      console.warn("localStorage is blocked, cannot load profile photo");
     }
   }, []);
 
@@ -63,7 +68,7 @@ const Hero = () => {
         </div>
         </div>
         <div className="hero-image-wrapper animate-fade-in" style={{ animationDelay: '0.5s' }}>
-          <div className="hero-image-container" onClick={handleImageClick} title="Click to upload a new photo">
+          <div className="hero-image-container" onClick={handleImageClick} title="Click to upload your photo">
             <img 
               src={profileImage} 
               alt="Amulya Shree T S" 
@@ -71,7 +76,7 @@ const Hero = () => {
               onError={(e) => { e.target.onerror = null; e.target.src="https://api.dicebear.com/9.x/initials/svg?seed=AS&backgroundColor=0b0c10&textColor=66fcf1" }}
             />
             <div className="upload-overlay">
-              <span>Upload Photo</span>
+              <span>Update Photo</span>
             </div>
             <input 
               type="file" 
