@@ -1,6 +1,0 @@
-/* We removed default Vite App.css styles since we are using custom sections */
-.app-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
